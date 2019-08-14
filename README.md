@@ -60,7 +60,7 @@ Follow these steps for completing your project.yr
 - Leave most of them blank for now - you need to get your data from the API before you can really get these built.
 
 **Step 3 - Fetching the Data**
-
+[X]
 - In `App.js` (or where ever you wanted to fetch the data) add state for the data you'll be getting from NASA.
 - Add an effect hook to handle the API call side effect.
 - Go to the [NASA APOD API docs](https://api.nasa.gov/api.html#apod) and read through the docs to see how to make the API call.
