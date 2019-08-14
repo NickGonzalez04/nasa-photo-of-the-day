@@ -27,7 +27,7 @@ This project was put together using create-react-app (CRA). You will not need to
 - [X] Clone your OWN version of the repository in your terminal
 - [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [Xgit ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -48,14 +48,14 @@ Follow these steps for completing your project.yr
 ## Directions
 
 **Step 1 - Planning**
-
+[X]
 - If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
 - Once you have a design plan in mind, break down the designs into individual components.
 - Plan which components will hold state, what data each needs from props (if any), and where you will be making your data fetch.
 - Now it's time to jump into the code!
 
 **Step 2 - File structure**
-
+[X]
 - Take a look at your planned components. Create the folders and files you need for each component.
 - Leave most of them blank for now - you need to get your data from the API before you can really get these built.
 
