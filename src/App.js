@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import PhotoCard from "./Photocard.js";
+import Header from "./header.js";
 import "./App.css";
 
 function App() {
@@ -16,13 +17,18 @@ function App() {
 }, []);
   return (
     <div className="App">
+    <Header />
       <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
       </p>
-      <PhotoCard title={data.title} 
+      {data 
+      ? <PhotoCard title={data.title} 
                   url={data.url}
-                 explanation={data.explanation}/>
+                 explanation={data.explanation}
+                 date={data.date}/>
+                 :<div>Loading</div>
+                 } 
     </div>
   );
 }

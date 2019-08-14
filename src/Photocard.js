@@ -5,7 +5,8 @@ function PhotoCard(props) {
     return (
         <div>
     <h1>{props.title}</h1>
-    <img src={props.url}/>
+    <img className="daily-photo" src={props.url}/>
+    <div>{props.date}</div>
     <p>
         {props.explanation}
     </p>
