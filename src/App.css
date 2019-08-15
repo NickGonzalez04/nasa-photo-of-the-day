@@ -31,3 +31,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.header-section{
+  background-color:#2B5FB9;
+  color: white;
+  justify-content: center;
+  margin: 0 10px 0px 10px;
+  border-radius: 0 0px 4px 4px;
+}
+
+.daily-photo{
+  width: 80%;
+  height: 30%;
+}
